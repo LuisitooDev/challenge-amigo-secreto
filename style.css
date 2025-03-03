@@ -1,10 +1,10 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: #88ac8c;
     --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
-    --color-text: #444444;
+    --color-tertiary: #e0fbdd;
+    --color-button: #89eb67;
+    --color-button-hover: #48b83a;
+    --color-text: #143e36;
     --color-white: #FFFFFF;
 }
 
@@ -122,7 +122,7 @@ button {
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #548c6a;
 }
 
 /* Listas */
@@ -136,7 +136,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: var(--color-text);
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -148,8 +148,9 @@ ul {
     align-items: center;
     width: 100%;
     padding: 10px 40px;
-    color: var(--color-white);
+    color: var(--color-text);
     background-color: var(--color-button);
+    font-weight: bold;
     font-size: 16px;
 }
 
